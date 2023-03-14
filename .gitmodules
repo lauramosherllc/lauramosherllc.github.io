@@ -1,0 +1,3 @@
+[submodule "themes/hugo-biz"]
+	path = themes/hugo-biz
+	url = https://github.com/lauramosherllc/hugo-biz.git

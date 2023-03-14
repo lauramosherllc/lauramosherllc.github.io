@@ -1,3 +1,170 @@
-baseURL: http://example.org/
+baseURL: https://lauramosher.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Laura Mosher | Personalized, Custom Software
+theme: hugo-biz
+
+params:
+  name: Laura Mosher LLC
+  displayName: Laura Mosher
+  favicon: fav.png
+  brandLogo: LM-horizontal.svg
+  fullLogo: LM-horizontal.svg
+
+  navbar:
+    # disableSearch: true
+    enabledSections:
+      - section: about
+        label: About
+      - section: services
+        label: Services
+      - section: contact
+        label: Contact
+
+
+  hero:
+    intro: We solve difficult problems with
+    title: Software Solutions
+    subtitle: Built just for you.
+    content: From web development to operations to leadership, we've got you covered.
+    image: me.jpg
+    button:
+      enable: true
+      download: false
+      name: Learn More
+      url: '#services'
+
+  about:
+    title: We are an impact-focused software consultancy.
+    content: |
+      Software should make life better and more accessible. We strive to
+      partner with clients and work on projects that make a difference.
+
+      We have been fortunate to work with incredible clients like:
+    list:
+      enable: true
+      items:
+        - name: Terrastories
+          logo: clients/terrastories.png
+          url: https://www.terrastories.app
+        - name: Still I Run
+          logo: clients/stillirun.png
+          url: https://www.stillirun.org
+        - name: Digital Democracy
+          logo: clients/dd.png
+          url: https://www.digital-democracy.org
+        - name: Irth
+          logo: clients/irth.png
+          url: https://www.irthapp.com
+        - name: SpeakEasy Political
+          logo: clients/speakeasy.png
+          url: https://www.speakeasypolitical.com
+        - name: Gray Bike
+          logo: clients/graybike.png
+          url: https://www.graybike.com
+        - name: Impactive
+          logo: clients/impactive.png
+          url: https://www.impactive.io
+        - name: Time For Ventures
+          logo: clients/timefor.svg
+          url: https://www.timefor.co
+        - name: The Melanated Mammary Atlas™
+          logo: clients/mmatlas.png
+          url: https://www.mmatlas.com
+        - name: Mode
+          logo: clients/mode.svg
+          url: https://www.mode.com
+
+  services:
+    title: We are software consultants
+    content: |
+      We aim to become integrated and productive members of your team. You know
+      your business the best, we strive to understand your business needs so we
+      can provide our best work.
+
+      We are comfortable in whichever role your team needs most; whether that
+      is coding, team or project management, code reviewing, paying down technical debt,
+      or providing technical leadership, we've got you covered.
+    roles:
+      enable: true
+      items:
+        - Software Engineer
+        - Software Architect
+        - Infrastructure Engineer
+        - Website Developer
+        - Fractional CTO
+        - Technical Writer
+    list:
+      - title: Software Development
+        content: |
+          From building custom software from an idea to executing on feature development,
+          we are experienced in many different languages, frameworks, and platforms.
+      - title: Code Refresh
+        content: |
+          Our team is deeply experienced in bringing old codebases onto modern and
+          stable versions. Performing upgrades, implementing large refactors, and paying down
+          technical debt shouldn't be frustrating or require extensive rewrites.
+      - title: Technical Leadership
+        content: |
+          Own the development process from inception to launch. Our team strives to
+          deeply understand your business needs to provide customized and tailored
+          leadership that best suits your project.
+      - title: Process Improvement
+        content: |
+          Creating approachable processes to developer operations and infrastructure
+          using tools like Docker and Terraform.
+
+  testimonials:
+    title: See what our clients are saying.
+    content: We can hype up our own work as much as we want, but no one says it better than our incredible clients.
+    items:
+      - content: They are incredibly fast learners with deep technical expertise that has shown they can ship any project they have taken on.
+      - content: I'm so thankful for their clear instruction, communication, and leadership with helping me overhaul my entire website!
+      - content: They are exceptionally communicative, dedicated, and always takes the time to thoroughly understand the task at hand.
+      - content: We heartily recommend them to anyone looking for a great technical partner and team leader.
+      - content: They consistently look at the whole picture to see how the design, user experience, security, and architecture of the website flows together.
+      - content: They clearly understands the longer term vision of all the projects we've worked with them on, and their able to help guide the projects in a direction sets us up for success in the future.
+      - content: Their work is impeccable and thorough. Laura has been a fantastic teammate and an absolute lifesaver every time we've worked with them.
+      - content: We've always worked asynchronously and their attention to detail and clear and thorough communication has made working on complex features and projects a lot smoother.
+      - content: They are true leaders that embody their values in each and every action.
+      - content: They helped my website go from good to fantastic!
+
+  copyright:
+    start: 2020
+    by: Laura Mosher LLC.
+    terms: All Rights Reserved.
+
+  socialLinks:
+    - platform: Github
+      icon: github
+      url: https://www.github.com/lauramosherllc
+
+    - platform: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/company/lauramosherllc/
+
+    - platform: Facebook
+      icon: facebook
+      url: https://wwww.facebook.com/lauramosherllc
+
+  contact:
+    enable: true
+    title: Get in touch
+    image: contact.png
+    imageAttribution: <a href="http://www.freepik.com">Designed by Freepik</a>
+    plainEmail:
+      force: true
+      email: hello@lauramosher.com
+    form:
+      heading: Send a Message
+      buttonLabel: Send
+      formspark:
+        enable: true
+        formId: 0QzruSlD
+    calendly:
+      enable: true
+      url: https://calendly.com/lauramosher/intro
+      heading: Virtual Meeting
+      linkLabel: Schedule a chat
+
+    content: |
+      Want more information? Please reach out.
