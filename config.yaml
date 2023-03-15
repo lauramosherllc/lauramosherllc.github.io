@@ -3,6 +3,8 @@ languageCode: en-us
 title: Laura Mosher | Personalized, Custom Software
 theme: hugo-biz
 
+googleAnalytics: G-BD8M0D0FX6
+
 params:
   name: Laura Mosher LLC
   displayName: Laura Mosher
