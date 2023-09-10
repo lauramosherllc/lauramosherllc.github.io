@@ -160,7 +160,7 @@ params:
       heading: Send a Message
       buttonLabel: Send
       formspark:
-        enable: true
+        enable: false
         formId: 0QzruSlD
     calendly:
       enable: true
