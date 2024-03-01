@@ -163,7 +163,7 @@ params:
         enable: false
         formId: 0QzruSlD
     calendly:
-      enable: true
+      enable: false
       url: https://calendly.com/lauramosher/intro
       heading: Virtual Meeting
       linkLabel: Schedule a chat
