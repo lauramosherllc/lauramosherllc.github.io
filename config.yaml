@@ -3,14 +3,13 @@ languageCode: en-us
 title: Laura Mosher | Personalized, Custom Software
 theme: hugo-biz
 
-googleAnalytics: G-BD8M0D0FX6
-
 params:
   name: Laura Mosher LLC
   displayName: Laura Mosher
   favicon: fav.png
   brandLogo: LM-horizontal.svg
   fullLogo: LM-horizontal.svg
+  googleAnalytics: G-BD8M0D0FX6
 
   navbar:
     # disableSearch: true
@@ -41,84 +40,64 @@ params:
       Software should make life better and more accessible. We strive to
       partner with clients and work on projects that make a difference.
 
-      We have been fortunate to work with incredible clients like:
+      We have been fortunate to partner with incredible clients like:
     list:
       enable: true
       items:
+        - name: Test Double
+          logo: clients/td.svg
+          url: https://www.testdouble.com
         - name: Terrastories
           logo: clients/terrastories.png
           url: https://www.terrastories.app
         - name: Still I Run
           logo: clients/stillirun.png
           url: https://www.stillirun.org
-        - name: Digital Democracy
-          logo: clients/dd.png
-          url: https://www.digital-democracy.org
-        - name: Irth
-          logo: clients/irth.png
-          url: https://www.irthapp.com
-        - name: SpeakEasy Political
-          logo: clients/speakeasy.png
-          url: https://www.speakeasypolitical.com
+        - name: Awana Digital
+          logo: clients/awana.png
+          url: https://www.awana.digital
         - name: Gray Bike
           logo: clients/graybike.png
           url: https://www.graybike.com
-        - name: Impactive
-          logo: clients/impactive.png
-          url: https://www.impactive.io
-        - name: Time For Ventures
-          logo: clients/timefor.svg
-          url: https://www.timefor.co
-        - name: The Melanated Mammary Atlas™
-          logo: clients/mmatlas.png
-          url: https://www.mmatlas.com
-        - name: Mode
-          logo: clients/mode.svg
-          url: https://www.mode.com
 
   services:
     title: We are software consultants
     content: |
-      We aim to become integrated and productive members of your team. You know
-      your business the best, we strive to understand your business needs so we
-      can provide our best work.
+      We aim to become integrated and productive members of your team.
 
-      We are comfortable in whichever role your team needs most; whether that
-      is coding, team or project management, code reviewing, paying down technical debt,
-      or providing technical leadership, we've got you covered.
+      You know your team best, we strive to meet your teams needs quickly and efficiently.
     roles:
       enable: true
       items:
-        - Software Engineer
-        - Software Architect
-        - Infrastructure Engineer
-        - Website Developer
-        - Fractional CTO
-        - Technical Writer
+        - Ruby
+        - Ruby on Rails
+        - Next.js
+        - React
+        - Terraform
+        - AWS Fargate, IAM, VPC, ECR, RDS
+        - And more
     list:
       - title: Software Development
         content: |
-          From building custom software from an idea to executing on feature development,
-          we are experienced in many different languages, frameworks, and platforms.
-      - title: Code Refresh
+          We are experienced in building from 0-1 to iterating on features to tackling tech debt.
+      - title: Thoughtful Leadership
         content: |
-          Our team is deeply experienced in bringing old codebases onto modern and
-          stable versions. Performing upgrades, implementing large refactors, and paying down
-          technical debt shouldn't be frustrating or require extensive rewrites.
-      - title: Technical Leadership
+          We provide custom tailored leadership based on your business and project needs.
+      - title: Technical Expertise
         content: |
-          We own the development process from inception to launch. Our team strives to
-          deeply understand your business needs to provide customized and tailored
-          leadership that best suits your project.
+          From small startups to fortune 500, we‘ve got industry experience in health, education, and more.
       - title: Process Improvement
         content: |
-          Creating approachable processes to developer operations and infrastructure
-          using tools like Docker and Terraform.
+          We observe, create, and iterate on approachable processes for your team, project, and business.
 
   testimonials:
     title: See what our clients are saying.
     content: We can hype up our own work as much as we want, but no one says it better than our incredible clients.
     items:
+      - content: They gained context really quickly and was able to hit the ground running in any task that they took on.
+      - content: They are collaborative and delightful to work with.
+      - content: Their communication is clear and timely and facilitates rapid decision making for other stakeholders.
+      - content: They recognize opportunities to do things better or improve the existing state of the code, and works with the team to execute on the improvements and drive positive change in the code base.
       - content: They are incredibly fast learners with deep technical expertise that has shown they can ship any project they have taken on.
       - content: I'm so thankful for their clear instruction, communication, and leadership with helping me overhaul my entire website!
       - content: They are exceptionally communicative, dedicated, and always takes the time to thoroughly understand the task at hand.

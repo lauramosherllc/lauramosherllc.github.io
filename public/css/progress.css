@@ -1,0 +1,65 @@
+
+@media (min-width:576px) {
+	.progress-wrap.active-progress {
+		opacity: 1;
+	}
+}
+.progress-wrap {
+	position: fixed;
+	right: 1.5rem;
+	bottom: 1.5rem;
+	width: 2.3rem;
+	height: 2.3rem;
+	cursor: pointer;
+	display: block;
+	border-radius: 100%;
+	box-shadow: inset 0 0 0 0.1rem rgba(128, 130, 134, 0.25);
+	z-index: 1040;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(0.75rem);
+
+	transition: all 200ms linear, margin-right 0ms;
+}
+.progress-wrap.active-progress {
+		visibility: visible;
+		transform: translateY(0);
+}
+.progress-wrap:after {
+  position: absolute;
+  font-family: 'bs';
+  content: "\F145";
+  text-align: center;
+  line-height: 2.3rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  left: 0;
+  top: 0;
+  height: 2.3rem;
+  width: 2.3rem;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  transition: all 200ms linear;
+}
+.progress-wrap svg path {
+		fill: none;
+	}
+.progress-wrap svg.progress-circle path {
+		stroke: var(--primary-color);
+		stroke-width: 4;
+		box-sizing: border-box;
+		transition: all 200ms linear;
+}
+
+.progress-wrap:hover svg.progress-circle path,
+.progress-wrap:hover:after {
+  stroke: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+@media (min-width:576px) {
+	.progress-wrap.active-progress {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Lora';
+  src: url('/fonts/Lora-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/fonts/Barlow-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Golos Text';
+  src: url('/fonts/GolosText.ttf');
+}
+
+@font-face {
+  font-family: "bs";
+  src: url("/fonts/bootstrap-icons.woff2") format("woff2"),
+       url("/fonts/bootstrap-icons.woff") format("woff");
+}

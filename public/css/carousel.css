@@ -1,0 +1,110 @@
+.carousel-container {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.carousel-container .row {
+  justify-content: center;
+}
+.carousel-container .navigation {
+  width: max-content;
+  flex: 0 0 auto;
+}
+
+.carousel-container .navigation svg {
+  fill: var(--primary-color);
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 2px;
+}
+.carousel-container .navigation svg.disabled {
+  fill: lightgray;
+  cursor: default;
+}
+
+/* Any number of items */
+.carousel {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+
+  padding: 0;
+
+  filter: drop-shadow(0 0 10px rgb(15 80 100 / 0.1));
+  perspective: 100px;
+}
+
+.carousel p, .carousel div, .carousel h1, .carousel h2, .carousel h3 {
+  margin: 0;
+}
+
+.carousel-item {
+  font-family: 'Barlow';
+  background-color: var(--background-color);
+  text-align: center;
+  padding: calc(var(--gutter-x) * .5);
+  list-style: none;
+  margin-left: 1rem;
+  border-radius: 5px;
+  perspective: 100px;
+
+}
+
+.carousel-item > svg {
+  align-self: flex-start;
+}
+
+.carousel-item.active-slide {
+  filter: drop-shadow(0 0 10px rgb(15 80 100 / 0.16));
+}
+
+/* 3 or fewer */
+.carousel--fixed .carousel {
+  flex-wrap: wrap;
+}
+
+.carousel--fixed .navigation {
+  display: none;
+}
+.carousel--fixed .carousel-item {
+  flex: 1 1 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel--fixed .carousel-item {
+    flex: 1 1 33%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel--fixed .carousel-item {
+    flex: 1 1 30%;
+  }
+}
+
+/* 4 or more */
+.carousel--flex .carousel {
+  flex-wrap: nowrap;
+}
+
+.carousel--flex .carousel-item {
+  width: calc(100% - 2rem);
+  flex: 0 0 auto;
+  transition: transform 900ms ease-in-out, filter 400ms ease-in 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-container .row {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .carousel--flex .carousel-item {
+    width: 250px;
+  }
+
+  .carousel-container .navigation {
+    text-align: right;
+    align-self: flex-end;
+  }
+}
